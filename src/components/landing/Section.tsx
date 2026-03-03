@@ -40,13 +40,15 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-12 md:mt-16"
         >
-          <Button
-            variant="outline"
-            size="lg"
-            className="text-[#00FF87] bg-transparent border-[#00FF87] hover:bg-[#00FF87] hover:text-black transition-colors font-bold tracking-widest uppercase"
-          >
-            {buttonText}
-          </Button>
+          <a href="https://t.me/kyousuke_67" target="_blank" rel="noopener noreferrer">
+            <Button
+              variant="outline"
+              size="lg"
+              className="text-[#00FF87] bg-transparent border-[#00FF87] hover:bg-[#00FF87] hover:text-black transition-colors font-bold tracking-widest uppercase"
+            >
+              {buttonText}
+            </Button>
+          </a>
         </motion.div>
       )}
     </section>
