@@ -5,11 +5,11 @@ import Layout from './Layout'
 import { sections } from './sections'
 
 const players = [
-  { nick: 'nek0', role: 'Entry Fragger' },
-  { nick: 'drask3t', role: 'IGL' },
-  { nick: '67', role: 'Support' },
-  { nick: 'qcold', role: 'AWPer' },
-  { nick: 'mafaGGH', role: 'Lurker' },
+  { nick: 'nek0', role: 'IGL' },
+  { nick: 'drask3t', role: 'AWPer' },
+  { nick: '67', role: 'Entry' },
+  { nick: 'mafaGGH', role: 'Rifler' },
+  { nick: 'qcold', role: 'Lurker' },
 ]
 
 export default function LandingPage() {
