@@ -51,6 +51,13 @@ export default function LandingPage() {
 
   return (
     <Layout>
+      <div className="fixed top-0 left-0 z-30 p-6">
+        <img
+          src="https://cdn.poehali.dev/projects/7a500cdd-bef0-4b51-b0b3-07deaddbde50/bucket/f03c029e-e20a-4be5-8a78-3e7522463c83.jpg"
+          alt="K37"
+          className="w-20 h-20 object-contain"
+        />
+      </div>
       <nav className="fixed top-0 right-0 h-screen flex flex-col justify-center z-30 p-4">
         {sections.map((section, index) => (
           <button
