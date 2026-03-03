@@ -58,6 +58,15 @@ export default function LandingPage() {
           className="w-20 h-20 object-contain"
         />
       </div>
+      <div className="fixed left-6 bottom-0 z-30 flex flex-col items-center gap-4 pb-8">
+        <div className="w-px h-24 bg-gradient-to-t from-[#00FF87] to-transparent" />
+        <span
+          className="text-[#00FF8760] text-xs tracking-[0.4em] uppercase font-mono"
+          style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}
+        >
+          Киберспорт · 2024 · K37
+        </span>
+      </div>
       <nav className="fixed top-0 right-0 h-screen flex flex-col justify-center z-30 p-4">
         {sections.map((section, index) => (
           <button
